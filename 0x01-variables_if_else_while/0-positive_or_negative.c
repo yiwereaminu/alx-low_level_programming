@@ -3,12 +3,17 @@
 #include <time.h>
 /* more headers goes there */
 
+/* betty style doc for function main goes there */
 /**
- * this function returns whether the var n is 
+ * this function returns whether the var n is
  * negative, positive or zere
  */
 int main(void)
 {
+	/**
+	 * checks if the var n is positive
+	 * negative or zero
+	 */
 	int n;
 
 	srand(time(0));
