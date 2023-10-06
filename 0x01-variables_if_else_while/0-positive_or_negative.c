@@ -4,9 +4,11 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+
 /**
- * this function returns whether the var n is
- * negative, positive or zere
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
