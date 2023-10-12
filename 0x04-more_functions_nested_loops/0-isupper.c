@@ -4,7 +4,7 @@
 /**
  * _isupper - Entry point
  *
- * @c - function variable
+ * @c:  function variable
  *
  * Return: Always 0 (Success)
  */
@@ -17,11 +17,11 @@ int _isupper(int c)
 	{
 		if (c == i)
 		{
-			return 1;
+			return (1);
 		}
-		else 
+		else
 		{
-			return 0;
+			return (0);
 		}
-	}	
+	}
 }
