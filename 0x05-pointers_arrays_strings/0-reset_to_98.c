@@ -2,15 +2,13 @@
 
 /**
  *reset_to_98 - Entry point
- *@*n: pointer variable
+ *@n: pointer variable
  *
  * Return: Always 0.
  */
 void reset_to_98(int *n)
 {
-	int i;
-	n = &i;
 	*n = 98;
 
-	_putchar(*n);
+	_putchar(*n + '0');
 }
