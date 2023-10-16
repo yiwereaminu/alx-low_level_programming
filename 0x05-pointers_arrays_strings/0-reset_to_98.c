@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-void reet_to_98(int *n)
+void reset_to_98(int *n)
 {
 	int i;
 	n = &i;
