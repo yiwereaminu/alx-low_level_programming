@@ -8,12 +8,12 @@
  */
 void _puts(char *str)
 {
-	if (*str != '\0')
+	while (*str != '\0')
 	{
 		_putchar(*str);
 		str++;
 	}
-	else if (*str == '\0')
+	if (*str == '\0')
 	{
 		_putchar('\n');
 	}
