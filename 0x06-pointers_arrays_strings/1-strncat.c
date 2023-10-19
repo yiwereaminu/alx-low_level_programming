@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-*_strcat - main entry
+*_strncat - main entry
 *this program concatenates two strings
 *@dest: a variable that points to the destination string
 *@src: a variable that points to the source string
