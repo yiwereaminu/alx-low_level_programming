@@ -9,7 +9,10 @@
 void _puts_recursion(char *s)
 {
 	if ((*s >= 'a' && *s <= 'z') || (*s >= 'A' && *s <= 'Z'))
+	{
 		_putchar(*s);
-	_puts_recursion(s);
-	_putchar('\n');
+		s++;
+		_puts_recursion(s);
+		_putchar('\n');
+	}
 }
