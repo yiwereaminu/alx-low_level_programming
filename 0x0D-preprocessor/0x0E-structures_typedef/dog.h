@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
 * struct dog - a type that represent a dog
 * @name: char pointer for name of dog
@@ -11,4 +13,4 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
+};
